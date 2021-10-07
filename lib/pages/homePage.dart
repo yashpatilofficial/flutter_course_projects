@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_course_project/widgets/drawer.dart';
 
 class homePage extends StatelessWidget {
   const homePage({ Key? key }) : super(key: key);
@@ -14,7 +15,7 @@ class homePage extends StatelessWidget {
           child: Text("This is not Printable"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
